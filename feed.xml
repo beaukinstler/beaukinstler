@@ -6,9 +6,28 @@
 </description>
     <link>http://beaukinstler.github.io/beaukinstler/</link>
     <atom:link href="http://beaukinstler.github.io/beaukinstler/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Oct 2017 20:08:01 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Oct 2017 20:08:01 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Oct 2017 20:11:20 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Oct 2017 20:11:20 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Notes about this quirky site</title>
+        <description>&lt;p&gt;In order to build the staic pages, I can run rails s -b $IP -p $port (note: I’m using the explicit port and IP bindings with my rails server, as one might do in the C9.io workspaces.) This will call the config/intilizers/blog.rb, wich has the settings that jekyll needs, much like using the config file and command line switches.&lt;/p&gt;
+
+&lt;p&gt;This command does the same thing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jekyll build -s ./blog -d ./public/beaukinstler -c ./config/jekyll.yml
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+        <pubDate>Tue, 17 Oct 2017 14:23:34 +0000</pubDate>
+        <link>http://beaukinstler.github.io/beaukinstler/jekyll/2017/10/17/notes-about-this-site-and-the-quirks.html</link>
+        <guid isPermaLink="true">http://beaukinstler.github.io/beaukinstler/jekyll/2017/10/17/notes-about-this-site-and-the-quirks.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Why this blog</title>
